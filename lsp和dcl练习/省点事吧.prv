@@ -1,0 +1,12 @@
+;;; Visual LISP 生成文件 [V1.0] 省点事吧 saved to:[Z:/划水/lsp和dcl练习] at:[10/25/22] 
+(PRV-DEF (:target . "省点事吧.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list (:lsp "省点事吧.LSP"))
+	 (:require-file-list)
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF

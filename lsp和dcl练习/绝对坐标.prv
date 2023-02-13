@@ -1,0 +1,12 @@
+;;; Visual LISP 生成文件 [V1.0] 绝对坐标 saved to:[Z:/划水/lsp和dcl练习] at:[11/8/22] 
+(PRV-DEF (:target . "绝对坐标.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list (:lsp "绝对坐标.LSP"))
+	 (:require-file-list (:DCL "绝对坐标.DCL"))
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF

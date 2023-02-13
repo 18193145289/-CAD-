@@ -1,0 +1,34 @@
+jdzb:dialog
+{
+	label="绝对标高";
+	:row
+	{
+		:image
+		{
+			key="i";
+			color=-2;
+			width=20;
+			height=5;
+			fixed_height=true;
+		}
+		:column
+		{
+			:edit_box
+			{
+				label="文字高度：";
+				key="wz";
+				value=2.5;
+				edit_width=10;
+			}
+			:popup_list
+			{
+				label="选择引线角度：";
+				key="b";
+				list="90\n60\n45\n30\n20\n0\n-90\n-60\n-45\n-30\n-20";
+				value="90";
+			}
+		}
+	}
+	spacer=1;
+	ok_cancel;
+}

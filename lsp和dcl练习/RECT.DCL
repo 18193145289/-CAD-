@@ -1,0 +1,87 @@
+RECT:dialog
+{	label="Rectangle";
+	:boxed_column
+	{
+		:edit_box
+		{	label="Rectangle width:";
+			key="rect_w";
+			edit_limit=16;
+			edit_width=10;
+			fixed_width=true;
+			value="50.0";
+		}
+		:edit_box
+		{	label="Rectangle heigth:";
+			key="rect_h";
+			edit_limit=16;
+			edit_width=10;
+			fixed_width=true;
+			value="20.0";
+		}
+		:boxed_column
+		{
+			:toggle
+			{	label="在矩形中画出对角线";
+				key="rect_x";
+			}
+			:row
+			{
+				:button
+				{	label="&enable";
+					key="rect_e";
+					width=10;
+					fixed_width=true;
+				}
+				:button
+				{	label="&disable";
+					key="rect_d";
+					width=10;
+					fixed_width=true;
+				}
+			}
+		}
+		:boxed_column
+		{
+			:toggle
+			{
+				label="复制";
+				key="gs";
+			}
+			:edit_box
+			{
+				label="个数：";
+				key="n";
+				width=5;
+				fixed_width=true;
+			}
+			:slider
+			{
+				key="s";
+				value=10;
+				min_value=1;
+				max_value=20;
+				big_increment=2;
+				small_increment=1;
+				width=30;
+				fixed_width=true;
+			}
+			:concatenation
+			{
+				:text_part
+				{
+					label="复制";
+				}
+				:text_part
+				{
+					label="1";
+					key="t";
+				}
+				:text_part
+				{
+					label="个矩形";
+				}
+			}
+		}
+	}
+	ok_only;
+}

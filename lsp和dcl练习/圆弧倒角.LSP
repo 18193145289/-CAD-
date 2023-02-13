@@ -1,0 +1,8 @@
+(defun c:r6()
+  (setq a1 (getpoint "d1:\n") a2 (getpoint "d2:\n") o (list (/ (+ (car a1) (car a2)) 2) (/ (+ (cadr a1) (cadr a2)) 2)) o1 (getpoint "选择内部点1\n") o2 (getpoint "选择内部点2\n"))
+  (command "circle" o a1) (setq s1 (entlast))
+  (command "line" a1 a2 "") (setq s2 (entlast))
+;;;  (setq r (sqrt (+ (* (- (/ (+ (car a1) (car a2)) 2) (car a1)) (- (/ (+ (car a1) (car a2)) 2) (car a1))) (* (- (/ (+ (cadr a1) (cadr a2)) 2) (cadr a1)) (- (/ (+ (cadr a1) (cadr a2)) 2) (cadr a1))))) o1 (polar o (* 3 (/ pi 2)) r))
+  (setvar "osmode" 0)
+  (command "trim" S1 S2 "" "c" o1 o2 "" "erase" s2 "")
+  (setvar "osmode" 15359))

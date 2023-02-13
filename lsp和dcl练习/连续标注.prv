@@ -1,0 +1,12 @@
+;;; Visual LISP 生成文件 [V1.0] 连续标注 saved to:[D:/蒋子英工作与划水/lsp和dcl练习] at:[8/31/22] 
+(PRV-DEF (:target . "连续标注.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list (:lsp "连续标注.LSP"))
+	 (:require-file-list)
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF

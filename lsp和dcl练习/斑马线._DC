@@ -1,0 +1,40 @@
+bmx:dialog
+{
+	label="斑马线";
+	:column
+	{
+		:edit_box
+		{
+			label="停车线距离人行横道距离(m):";
+			value=1;
+			edit_width=5;
+			key="d";
+		}
+		:edit_box
+		{
+			label="斑马线长度(m):";
+			value=6;
+			edit_width=5;
+			key="bc";
+		}
+		:boxed_row
+		{
+			label="停车线与人行横道位置";
+			:row
+			{
+				:radio_button
+				{
+					label="上或左";
+					key="sz";
+					value=1;
+				}
+				:radio_button
+				{
+					label="下或右";
+					key="xy";
+				}
+			}
+		}
+	}
+	ok_only;
+}

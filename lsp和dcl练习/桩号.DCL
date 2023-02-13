@@ -1,0 +1,22 @@
+zh:dialog
+{
+	label="×®ºÅ";
+	:boxed_column
+	{
+		:edit_box
+		{
+			label="±àºÅ£º";
+			value="1";
+			width=20;
+			key="bh";
+		}
+		:popup_list
+		{
+			label="±ÈÀý£º";
+			list="1:30\n1:50\n1:100\n1:150\n1:200\n1:250\n1:300";
+			value="1:100";
+			key="bl";
+		}
+	}
+	ok_only;
+}

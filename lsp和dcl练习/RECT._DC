@@ -1,0 +1,18 @@
+RECT:dialog
+{	label="Rectangle" ;
+	:edit_box
+	{	label="Rectangle width:" ;
+		key="RECT_W" ;
+		edit_limit=16 ;
+		edit_width=10 ;
+		fixed_width=true ;
+	}
+	:edit_box
+	{	label="Rectangle heigth:" ;
+		key="RECT_H" ;
+		edit_limit=16 ;
+		edit_width=10 ;
+		fixed_width=true ;
+	}
+	ok_only;
+}
